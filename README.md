@@ -9,8 +9,16 @@ How to build
 docker build -t docker-valgrind .
 ```
 
+
 How to run
 ----------
 ```bash
 docker run -it -v "~/host/directory":/dock docker-valgrind
+```
+
+
+Need to install Docker?
+-----------------------
+```bash
+https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac
 ```
