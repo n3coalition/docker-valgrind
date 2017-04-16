@@ -13,5 +13,5 @@ docker build -t docker-valgrind .
 How to run
 ----------
 ```bash
-docker run -it -v "~/host/directory":"/container/directory" docker-valgrind bash
+docker run -it -v "~/host/directory":/dock docker-valgrind
 ```
