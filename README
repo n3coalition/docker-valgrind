@@ -1,0 +1,3 @@
+To run valgrind on macOS system please run the following comamnd:
+
+docker run -it -v "~/host/directory":"/container/directory" valgrind bash
