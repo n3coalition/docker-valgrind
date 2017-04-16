@@ -1,8 +1,7 @@
 # Docker Container for Valgrind
 
 This Docker container was built due to incompatibility issues of running valgrind on macOS 10.12+.
-The container's image is based on Debian.
-
+The container's image is based on Debian and includes the packages build-essential and valgrind. Build-essential is included for the ability to use make and gcc/g++ for C/C++ projects.
 
 How to build
 ------------
