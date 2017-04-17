@@ -4,8 +4,7 @@ FROM debian:stable-slim
 # Set the file maintainer
 MAINTAINER n3coalition <n3.coalition@gmail.com>
 
-# Update the default application repository sources list and install
-# build-essential (for gcc, make, etc) and valgrind packages
+# Update the default application repository sources list and install packages
 RUN apt-get update && apt-get install -y \
     make \
     gcc \
